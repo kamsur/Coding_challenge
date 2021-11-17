@@ -62,21 +62,3 @@ This is a simple REST API service which handles money transactions between two a
 * Open project
 * Run Tests in DWSTest (IntelliJ)
 * Run As > JUnit Test (Eclipse)
-
-# Further improvements
-
-* In memory repository will be converted to Spring JPA CRUD repository with a transactional DBMS (such as MySQL).
-* More tests for TransferController will be implemented to increase the coverage to 100%.
-* JUnit will be upgraded to version 5.8, old Gradle commands will be updated.
-* Code coverage and static analysis (SonarQube) will be added.
-* Additional scenario based functional tests will be performed with Cucumber.
-* Controllers will be configured to respond accordingly with custom error messages.
-* EmailNotifications will be saved to a queue as Events which will be consumed by a service subscribed for the event type to remove dependency and reduce transaction time.
-* Frontend UI will be provided to test system manually.
-* Login with OAuth2 SSO
-* Currency support for Accounts
-* Time based exchange rates for transfers
-* Global Date-time support for Transfer object
-* Future transfer with reservation
-* Transfer between other bank accounts.
-* Warnings and deprecated Gradle features will be removed.
