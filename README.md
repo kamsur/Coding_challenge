@@ -1,5 +1,3 @@
-**Dev Challenge (Short)**
-
 **The Asset Management Digital Challenge**
 ==========================================
 *Transfer Money Between Two Accounts*
